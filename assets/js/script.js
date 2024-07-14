@@ -162,5 +162,10 @@ for (let i = 0; i < navigationLinks.length; i++) {
 var swiper = new Swiper(".logo-slider", {
   spaceBetween: 20,
   slidesPerView: 8,
-  loop:true,
+  loop: true,
+  speed:1000,
+  autoplay:{
+    delay:2000,
+  }
+
 });

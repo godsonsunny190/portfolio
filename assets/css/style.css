@@ -870,6 +870,16 @@ main {
 
 .timeline-item {
   position: relative;
+
+  ul {
+    padding-left: 18px;
+
+    li {
+      color: var(--light-gray);
+      font-weight: var(--fw-300);
+      list-style: disc;
+    }
+  }
 }
 
 .timeline-item:not(:last-child) {
@@ -914,7 +924,15 @@ main {
   color: var(--light-gray);
   font-weight: var(--fw-300);
   line-height: 1.6;
+
+  ul {
+    li {
+      color: var(--light-gray);
+      font-weight: var(--fw-300);
+    }
+  }
 }
+
 
 
 /**
