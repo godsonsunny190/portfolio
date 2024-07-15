@@ -166,6 +166,23 @@ var swiper = new Swiper(".logo-slider", {
   speed:1000,
   autoplay:{
     delay:2000,
-  }
+  },
 
+breakpoints: {
+  320: {
+    slidesPerView: 4,
+  },
+  480: {
+    slidesPerView: 5,
+  },
+  640: {
+    slidesPerView:5,
+  },
+  768: {
+    slidesPerView: 7,
+  },
+  1024: {
+    slidesPerView: 8,
+  },
+},
 });
